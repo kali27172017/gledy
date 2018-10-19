@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <title>Feliz 19 meses</title>
+</head>
+
+<body>
+    <figure class="figure">
+        <img src="./logo.jpg" width="400px">
+        <button id="btn">PRESIONA EL BOTON</button>
+    </figure>
+
+    <div id="mensaje" class="mensaje">
+        FELIZ 19 MESES AMOR
+    </div>
+
+
+    <script>
+        let btn = document.getElementById("btn")
+        let mensaje = document.getElementById('mensaje')
+        btn.addEventListener("click", function () {
+            mensaje.classList.add('evento')
+        })
+    </script>
+</body>
+
+</html>

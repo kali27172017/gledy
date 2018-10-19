@@ -1,0 +1,41 @@
+.figure{
+    width:400px;
+    margin:110px auto;
+}
+
+.figure img{
+      border-radius:40px;
+}
+
+
+.figure button{
+  position: absolute;
+  top:200px;
+  left:420px;
+  border:none;
+  padding:1em;
+  background:#7CDA37;
+  color:white;
+}
+
+
+.mensaje{
+    text-align:center;
+    font-size:30px;
+    width:400px;
+    position:absolute;
+    top:-30px;
+    left:310px;
+    color:#7CDA37;
+    font-weight:bold;
+}
+
+
+.evento{
+    transition:1s;
+    top:60px;
+}
+
+
+
+
